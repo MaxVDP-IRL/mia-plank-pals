@@ -1,0 +1,13 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plank Pals tests</title>
+<style>body{font:14px system-ui;padding:12px} .ok{color:#1F9D5B} .bad{color:#b00020;font-weight:700} pre{white-space:pre-wrap}</style>
+<h1 id="summary">Running…</h1><ol id="results"></ol>
+<script type="module">
+  import { run } from './tests/harness.js';
+  import './tests/dates.test.js';    import './tests/stopwatch.test.js'; import './tests/cues.test.js';
+  import './tests/goal.test.js';     import './tests/streak.test.js';    import './tests/rewards.test.js';
+  import './tests/session.test.js';  import './tests/stats.test.js';     import './tests/storage.test.js';
+  import './tests/backup.test.js';   import './tests/gate.test.js';      import './tests/strings.test.js';
+  import './tests/pwa.test.js';
+  run();
+</script>
