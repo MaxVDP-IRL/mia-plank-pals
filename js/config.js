@@ -1,5 +1,5 @@
 // js/config.js — the single source of tunable numbers.
-export const APP_VERSION = '1.1.0';               // MUST equal VERSION in sw.js (tests/pwa.test.js checks)
+export const APP_VERSION = '1.1.1';               // MUST equal VERSION in sw.js (tests/pwa.test.js checks)
 export const STORAGE_KEY = 'plankPals.state';
 export const SCHEMA_VERSION = 1;
 
