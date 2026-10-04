@@ -70,11 +70,20 @@
     <div class="meet-names" id="meet-names-phase" hidden>
       <div class="pup-wrap" id="meet-pup" data-bubble style="--pup-size:170px; margin-top:28px"></div>
       <div class="name-grid" id="meet-grid"></div>
-      <button type="button" class="btn btn-big" id="meet-ok" aria-label="Yes">✅</button>
       <button type="button" class="link-btn" id="meet-type">✏️ Grown-up: type a name</button>
       <div class="meet-type" id="meet-type-row" hidden>
         <input class="text-input" id="meet-type-input" maxlength="12" placeholder="Pet name" autocomplete="off" spellcheck="false">
         <button type="button" class="btn btn-parent" id="meet-type-ok">OK</button>
+      </div>
+    </div>
+    <div class="name-ask" id="meet-ask" hidden>
+      <div class="name-ask-card" role="dialog" aria-modal="true" aria-labelledby="meet-ask-q">
+        <div class="name-ask-emoji" id="meet-ask-emoji" aria-hidden="true"></div>
+        <p class="name-ask-q" id="meet-ask-q"></p>
+        <div class="name-ask-actions">
+          <button type="button" class="btn btn-big" id="meet-ask-yes">Yes</button>
+          <button type="button" class="btn btn-big btn-big--soft" id="meet-ask-no">No</button>
+        </div>
       </div>
     </div>
   </section>

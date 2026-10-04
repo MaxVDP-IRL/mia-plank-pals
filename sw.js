@@ -1,5 +1,5 @@
 // sw.js — bump VERSION on EVERY release (must equal APP_VERSION in js/config.js).
-const VERSION = '1.1.0';
+const VERSION = '1.1.1';
 const CACHE = `plank-pals-${VERSION}`;
 const ASSETS = [
   './',

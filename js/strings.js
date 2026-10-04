@@ -63,6 +63,7 @@ export const LINES = {
   meetBasket:       ['{name}! Something is in the basket! Tap it!'],
   meetHello:        ["Hi {name}! I'm your new puppy!"],
   meetPickName:     ['What is my name? Tap a card!'],
+  meetAsk:          ['Call me {pup}?'],
   meetNamed:        ["I love it! I'm {pup}!"],
 };
 

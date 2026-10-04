@@ -5,7 +5,7 @@ const REQUIRED = ['homeHello', 'homeReturning', 'homeDoneForToday', 'offerOtherS
   'stickerPick', 'stickerReveal', 'oneMoreTry', 'doubleDay', 'stageUp', 'capReached', 'go', 'plankCountdownIntro',
   'plankMidway', 'plankNearGoal', 'plankGoalLive', 'plankGoal', 'plankBestLive', 'plankBest', 'plankBelowGoal',
   'squatCountdownIntro', 'squatMidway', 'squatTwoMore', 'squatOneMore', 'squatGoalLive', 'squatGoal', 'squatBest',
-  'squatBelowGoal', 'countCheck', 'formTipPlank', 'formTipSquat', 'setupTestSound', 'meetBasket', 'meetHello', 'meetNamed'];
+  'squatBelowGoal', 'countCheck', 'formTipPlank', 'formTipSquat', 'setupTestSound', 'meetBasket', 'meetHello', 'meetAsk', 'meetNamed'];
 
 test('strings: every required category exists and is non-empty', () => {
   for (const k of REQUIRED) ok(Array.isArray(LINES[k]) && LINES[k].length > 0, 'missing ' + k);
